@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="custom/ico/favicon.png">
+
+    <title>Basic HTML Elements - Web Design Basics</title>
+
+  <script type="text/javascript">var thisvernum=7;</script>
+  <link rel="stylesheet" type="text/css" href="scripts/tryit.css" />
+  <script type="text/javascript" src="scripts/engine.js"></script>
+  <script src="codemirror/codemirror.js"></script>
+  <script src="codemirror/xml.js"></script>
+  <script src="codemirror/javascript.js"></script>
+  <script src="codemirror/css.js"></script>
+  <script src="codemirror/htmlmixed.js"></script>
+  <link rel="stylesheet" href="codemirror/codemirror.css" />
+  <link rel="stylesheet" href="codemirror/default.css" />
+  <link rel="stylesheet" href="codemirror/eclipse.css" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="custom/css/starter-template.css" rel="stylesheet">
+    <link href="custom/css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="custom/js/html5shiv.js"></script>
+      <script src="custom/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="wrap"> 
+  <!-- #wrap needed for sticky footer -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Artios Web Design</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown active"><!-- START Dropdown -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">HTML <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="html.html">What is HTML?</a></li>
+                  <li class="divider"></li>
+                  <li><a href="pagestructure.html">Basic Page Structure</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Basic HTML Elements</li>
+                  <li><a href="basic.html#headers">Headers</a></li>
+                  <li><a href="basic.html#paragraphs">Paragraphs</a></li>
+                  <li><a href="basic.html#formatting">Text Formatting</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Content Elements</li>
+                  <li><a href="hyperlinks.html">Hyperlinks & Anchors</a></li>
+                  <li><a href="images.html">Images</a></li>
+                  <li><a href="tables.html">Tables</a></li>
+                  <li><a href="lists.html">Lists</a></li>
+                  <li><a href="forms.html">Forms</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Discussions</li>
+                  <li><a href="block-inline-elements.html">Block & Inline Elements</a></li>
+                  <li><a href="tables-vs-divs.html">Tables VS. Divs</a></li>
+                  <li><a href="emptytags.html">Empty Tags?</a></li>
+                  <li><a href="html5.html">HTML 5</a></li>
+                  <li><a href="browsercompatibility.html">Browser Compatibility</a></li>
+                </ul>
+              </li><!-- END Dropdown -->
+              <li class="dropdown"><!-- START Dropdown -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">CSS <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="css.html">What is CSS?</a></li>
+                  <li><a href="boxmodel.html">Box Model</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Structure</li>
+                  <li><a href="csssyntax.html">Syntax</a></li>
+                  <li><a href="csssyntax.html#selectors">Selectors</a></li>
+                  <li><a href="csssyntax.html#units">Units</a></li>
+                  <li><a href="properties.html">Properties</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Basic Property Styles</li>
+                  <li><a href="backgroundstyles.html">Background</a></li>
+                  <li><a href="fontstyles.html">Fonts</a></li>
+                  <li><a href="textstyling.html">Text Styling</a></li>
+                  <li><a href="linkstyling.html">Links</a></li>
+                  <li><a href="liststyles.html">Lists</a></li>
+                  <li><a href="tablestyles.html">Tables</a></li>
+                  <li><a href="formstyles.html">Forms</a></li>
+                  <li><a href="imagestyles.html">Images</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">HTML Tags <span class="badge pull-right">new</span></li>
+                  <li><a href="divs-and-span.html">Divs & Span</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Discussions</li>
+                  <li><a href="csspositioning.html">Positioning</a></li>
+                  <li><a href="csscentering.html">Center</a></li>
+                  <li><a href="css3.html">CSS3</a></li>
+                </ul>
+              </li><!-- END Dropdown -->
+              <li><a href="tryiteditorinstant.html">Practice <span class="glyphicon glyphicon-star-empty"></span></a></li>
+              <li><a href="http://bit.ly/artioswebdesign" target="_new">Resources</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="credit.html">Credit</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+
+<div class="container"> 
+<!--TryIt Instant Editor -->
+<div class="well well-sm">
+      <h1>Basic HTML Elements</h1>
+
+<div class="row">
+
+<!-- Section Start -->
+<div class="col-6 col-sm-6 col-lg-6">
+    <!-- Editor Start -->
+    <textarea class="code_input" id="code1" spellcheck="false">
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Basic HTML Elements&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Let's get started. Start writing tags for headings 
+  and paragraphs. Add some emphasis to the paragraph with 
+  some text formatting tags. Delete this paragraph when done.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+  <!-- Editor End -->
+  <!-- Editor Information Start -->
+  <!-- Reset Button -->
+  <div class="pull-right" style="margin-top:5px;"> 
+    <button type="button" class="btn btn-default btn-xs" onclick="window.location.reload()">Reset</button>
+  </div>
+  <!-- Reset Button End -->
+  <!-- Highlight Syntax Button -->
+  <p class="bottomtext"> 
+    <label for="syntaxHilite">
+    <input type="checkbox" id="syntaxHilite" onclick="toggleCodeMirror()" accesskey="m" checked>
+     <span class="glyphicon glyphicon-adjust"></span> HIGHLIGHT
+    </label>
+  (alt+m) // Edit the code above to see the result.
+  </p>
+  <!-- Editor Information End -->
+</div>
+<!-- Section End -->
+<!-- Section Start -->
+    <div class="col-6 col-sm-6 col-lg-6">
+      <!-- preview -->
+      <iframe class="result_output" id="view" name="view" src="javascript:''">Output Should Appear Here.</iframe>
+      <!-- /preview -->
+      <div class="centered">
+        <span id="titletext">(Title should appear here)</span>
+      </div>
+    </div>
+<!-- /section -->
+  </div> <!-- /row -->
+</div> 
+<!-- / TryIt Instant Editor -->
+
+<div class="container">
+<div class="row">
+                    <div class="col-6 col-sm-6 col-lg-6">
+                      <iframe src="//player.vimeo.com/video/75444175" width="500" height="333" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/75444175">LIFE FORMS</a> from <a href="http://vimeo.com/user11164561">Antoine Presles</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                              </div>
+                            <div class="col-6 col-sm-6 col-lg-6">
+                            <iframe width="640" height="480" src="//www.youtube.com/embed/F69uqDIhr60" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            </div>
+
+                            <div class="col-4 col-sm-6 col-lg-4">
+                              
+                              <h2><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags</h2>
+                              <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+
+
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                           <p><span class="text-success text-center">Try This Above! <span class="glyphicon glyphicon-star"></span></span> Insert after <code>&lt;body&gt;</code> tag. </p>
+<pre><code>&lt;h1&gt;</code>My First Header<code>&lt;/h1&gt;</code>
+<code>&lt;h2&gt;</code>Rename me!<code>&lt;/h2&gt;</code>
+<code>&lt;h3&gt;</code>Me too!<code>&lt;/h3&gt;</code>
+<code>&lt;h4&gt;</code>I'm the smallest.<code>&lt;/h4&gt;</code>
+<code>&lt;h5&gt;</code>No, I am.<code>&lt;/h5&gt;</code>
+<code>&lt;h6&gt;</code>Actually, I think I'm the smallest.<code>&lt;/h6&gt;</code>
+</pre>
+                        </div>
+                      </div>
+
+<h4>Additional Info </h4>
+<p>Heading tags are block level elements. Block level elements normally start (and end) with a new line when displayed in a browser. When you insert the code above, notice how the headings stack on top of each other, instead of lining up from right to left. Each block takes up a line.</p>
+
+<h4>Proper Syntax</h4>
+                    <ul class="list-unstyled">
+                      <li><code>&lt;h1&gt;</code> Heading 1 <code>&lt;/h1&gt;</code></li>
+                      <li><code>&lt;h2&gt;</code> Heading 2 <code>&lt;/h2&gt;</code></li>
+                      <li><code>&lt;h3&gt;</code> Heading 3 <code>&lt;/h3&gt;</code></li>
+                      <li><code>&lt;h4&gt;</code> Heading 4 <code>&lt;/h4&gt;</code></li>
+                      <li><code>&lt;h5&gt;</code> Heading 5 <code>&lt;/h5&gt;</code></li>
+                      <li><code>&lt;h6&gt;</code> Heading 6 <code>&lt;/h6&gt;</code></li>
+                    </ul>
+
+                      <p><a class="btn btn-default btn-xs" href="http://w3schools.com/html/html_blocks.asp" target="_new">Source</a></p>
+                    </div><!--/span-->
+
+                    <div class="col-4 col-sm-6 col-lg-4">
+                      <h2><code>&lt;p&gt;</code> ... <code>&lt;/p&gt;</code> element </h2>
+                      <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> paragraphs are defined with the <code>&lt;p&gt;</code> tags.</p>
+
+
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                           <p><span class="text-success text-center">Try This Above! <span class="glyphicon glyphicon-star"></span></span> Insert after <code>&lt;body&gt;</code> tag or after any <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags. </p>
+<pre><code>&lt;h1&gt;</code>My First Header<code>&lt;/h1&gt;</code>
+<code>&lt;h2&gt;</code>Rename me!<code>&lt;/h2&gt;</code>
+<code>&lt;h3&gt;</code>Me too!<code>&lt;/h3&gt;</code>
+<code>&lt;h4&gt;</code>I'm the smallest.<code>&lt;/h4&gt;</code>
+<code>&lt;h5&gt;</code>No, I am.<code>&lt;/h5&gt;</code>
+<code>&lt;h6&gt;</code>Actually, I think I'm the smallest. :(<code>&lt;/h6&gt;</code>
+</pre>
+                        </div>
+                      </div>
+
+                      <p><a class="btn btn-default btn-xs" href="http://www.w3schools.com/html/html_blocks.asp">Source</a> <a class="btn btn-default btn-xs" href="http://www.w3schools.com/html/html_elements.asp">Elements</a></p>
+                    </div><!--/span-->
+
+
+                    <div class="col-4 col-sm-6 col-lg-4">
+                      <h2>Need Placeholders?</h2>
+                      <p>Use this:</p>
+                      <blockquote>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </blockquote>
+                      <p><a class="btn btn-default btn-xs" href="http://lipsum.com" target="_new">Source</a></p>
+                    </div><!--/span-->
+
+
+
+</div>
+</div>
+
+<div class="row">
+
+</div>
+
+
+
+<div class="col-12 col-sm-12 col-lg-12">
+<h2>References</h2> 
+    <table class="table table-condensed table-bordered table-striped">
+      <tr>
+        <th>Topic</th>
+        <th>Source</th>
+      </tr>
+      <tr>
+        <td>Best Practices for Beginners</td>
+        <td><a href="http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/" target="_new">http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/</a></td>
+      </tr>
+      <tr>
+        <td>Blocks</td>
+        <td><a href="http://www.w3schools.com/html/html_blocks.asp" target="_new">http://www.w3schools.com/html/html_blocks.asp</a></td>
+      </tr>
+      <tr>
+        <td>Headings, Paragraphs, & More</td>
+        <td><a href="http://www.w3schools.com/html/html_elements.asp" target="_new">http://www.w3schools.com/html/html_elements.asp</a></td>
+      </tr>
+    </table>
+
+</div>
+</div>
+    
+
+    </div><!-- /.container -->
+</div>
+
+
+<div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Content by <a href="w3schools.com">w3schools.com</a> // Curation by <a href="http://jeba.ro" target="_new">Jeoffrey Batangan</a> &copy; 2013  // Tryit Editor Instant Version 1.7 &copy; 2011-2013 by <a href="http://tryiteditor.webs.com/">Kevin Zhou</a>.</p>
+      </div>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44940931-1', 'jeoffreybatangan.com');
+      ga('send', 'pageview');
+
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="custom/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $('#myTab a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+      })
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

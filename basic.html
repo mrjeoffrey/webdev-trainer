@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="custom/ico/favicon.png">
+
+    <title>Basic HTML Elements - Web Design Basics</title>
+
+  <script type="text/javascript">var thisvernum=7;</script>
+  <link rel="stylesheet" type="text/css" href="scripts/tryit.css" />
+  <script type="text/javascript" src="scripts/engine.js"></script>
+  <script src="codemirror/codemirror.js"></script>
+  <script src="codemirror/xml.js"></script>
+  <script src="codemirror/javascript.js"></script>
+  <script src="codemirror/css.js"></script>
+  <script src="codemirror/htmlmixed.js"></script>
+  <link rel="stylesheet" href="codemirror/codemirror.css" />
+  <link rel="stylesheet" href="codemirror/default.css" />
+  <link rel="stylesheet" href="codemirror/eclipse.css" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="custom/css/starter-template.css" rel="stylesheet">
+    <link href="custom/css/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="custom/js/html5shiv.js"></script>
+      <script src="custom/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div id="wrap"> 
+  <!-- #wrap needed for sticky footer -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Artios Web Design</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown active"><!-- START Dropdown -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">HTML <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="html.html">What is HTML?</a></li>
+                  <li class="divider"></li>
+                  <li><a href="pagestructure.html">Basic Page Structure</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Basic HTML Elements</li>
+                  <li><a href="basic.html#headers">Headers</a></li>
+                  <li><a href="basic.html#paragraphs">Paragraphs</a></li>
+                  <li><a href="basic.html#formatting">Text Formatting</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Content Elements</li>
+                  <li><a href="hyperlinks.html">Hyperlinks & Anchors</a></li>
+                  <li><a href="images.html">Images</a></li>
+                  <li><a href="tables.html">Tables</a></li>
+                  <li><a href="lists.html">Lists</a></li>
+                  <li><a href="forms.html">Forms</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Discussions</li>
+                  <li><a href="block-inline-elements.html">Block & Inline Elements</a></li>
+                  <li><a href="tables-vs-divs.html">Tables VS. Divs</a></li>
+                  <li><a href="emptytags.html">Empty Tags?</a></li>
+                  <li><a href="html5.html">HTML 5</a></li>
+                  <li><a href="browsercompatibility.html">Browser Compatibility</a></li>
+                </ul>
+              </li><!-- END Dropdown -->
+              <li class="dropdown"><!-- START Dropdown -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">CSS <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="css.html">What is CSS?</a></li>
+                  <li><a href="boxmodel.html">Box Model</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Structure</li>
+                  <li><a href="csssyntax.html">Syntax</a></li>
+                  <li><a href="csssyntax.html#selectors">Selectors</a></li>
+                  <li><a href="csssyntax.html#units">Units</a></li>
+                  <li><a href="properties.html">Properties</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Basic Property Styles</li>
+                  <li><a href="backgroundstyles.html">Background</a></li>
+                  <li><a href="fontstyles.html">Fonts</a></li>
+                  <li><a href="textstyling.html">Text Styling</a></li>
+                  <li><a href="linkstyling.html">Links</a></li>
+                  <li><a href="liststyles.html">Lists</a></li>
+                  <li><a href="tablestyles.html">Tables</a></li>
+                  <li><a href="formstyles.html">Forms</a></li>
+                  <li><a href="imagestyles.html">Images</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">HTML Tags <span class="badge pull-right">new</span></li>
+                  <li><a href="divs-and-span.html">Divs & Span</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Discussions</li>
+                  <li><a href="csspositioning.html">Positioning</a></li>
+                  <li><a href="csscentering.html">Center</a></li>
+                  <li><a href="css3.html">CSS3</a></li>
+                </ul>
+              </li><!-- END Dropdown -->
+              <li><a href="tryiteditorinstant.html">Practice <span class="glyphicon glyphicon-star-empty"></span></a></li>
+              <li><a href="http://bit.ly/artioswebdesign" target="_new">Resources</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="credit.html">Credit</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+
+<div class="container"> 
+<!--TryIt Instant Editor -->
+<div class="well well-sm">
+<h1>Basic HTML Elements</h1>
+
+<div class="row">
+
+<!-- Section Start -->
+    <div class="col-6 col-sm-6 col-lg-6">
+    <!-- Editor Start -->
+    <textarea class="code_input" id="code1" spellcheck="false">
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Basic HTML Elements&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Let's get started. Start writing tags for headings 
+  and paragraphs. Add some emphasis to the paragraph with 
+  some text formatting tags. Delete this paragraph when 
+  done.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</textarea>
+  <!-- Editor End -->
+  <!-- Editor Information Start -->
+  <!-- Reset Button -->
+        <div class="pull-right" style="margin-top:5px;"> 
+        <button type="button" class="btn btn-default btn-xs" onclick="window.location.reload()">Reset</button>
+        </div>
+  <!-- Reset Button End -->
+  <!-- Highlight Syntax Button -->
+      <p class="bottomtext"> 
+        <label for="syntaxHilite">
+        <input type="checkbox" id="syntaxHilite" onclick="toggleCodeMirror()" accesskey="m" checked>
+         <span class="glyphicon glyphicon-adjust"></span> HIGHLIGHT
+        </label>
+      (alt+m) // Edit the code above to see the result.
+      </p>
+  <!-- Editor Information End -->
+    </div>
+<!-- Section End -->
+<!-- Section Start -->
+    <div class="col-6 col-sm-6 col-lg-6">
+      <!-- preview -->
+      <iframe class="result_output" id="view" name="view" src="javascript:''">Output Should Appear Here.</iframe>
+      <!-- /preview -->
+      <div class="centered">
+        <span id="titletext">(Title should appear here)</span>
+      </div>
+    </div>
+<!-- /section -->
+</div> <!-- /row -->
+</div>
+</div> 
+<!-- / TryIt Instant Editor -->
+
+<div class="container">
+  <div class="row">
+        <div class="col-6 col-sm-6 col-lg-6">
+          <h2><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags</h2>
+
+                      <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+
+
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                           <p><span class="text-success text-center">Try This Above! <span class="glyphicon glyphicon-star"></span></span> Insert after <code>&lt;body&gt;</code> tag. </p>
+
+<pre>&lt;h1&gt;My First Header&lt;/h1&gt;
+&lt;h2&gt;Rename me!&lt;/h2&gt;
+&lt;h3&gt;Me too!&lt;/h3&gt;
+&lt;h4&gt;I'm the smallest.&lt;/h4&gt;
+&lt;h5&gt;No, I am.&lt;/h5&gt;
+&lt;h6&gt;Actually, I think I'm the smallest.&lt;/h6&gt;</pre>
+
+                        </div>
+                      </div>
+
+                      <h4 class="text-primary">Tag Information <span class="glyphicon glyphicon-info-sign"></span></h4>
+                      <p>Heading tags are <strong>block level elements</strong>. Each block level elements makes a new line when displayed in a browser. When you insert the code above into the editor, notice how the headings <em>stack on top of each other</em>, instead of lining up from right to left.</p>
+
+                      <h4 class="text-success">Proper Syntax <span class="glyphicon glyphicon-pencil"></span></h4>
+                      <ul class="list-unstyled">
+                        <li><code>&lt;h1&gt;</code> Heading 1 <code>&lt;/h1&gt;</code></li>
+                        <li><code>&lt;h2&gt;</code> Heading 2 <code>&lt;/h2&gt;</code></li>
+                        <li><code>&lt;h3&gt;</code> Heading 3 <code>&lt;/h3&gt;</code></li>
+                        <li><code>&lt;h4&gt;</code> Heading 4 <code>&lt;/h4&gt;</code></li>
+                        <li><code>&lt;h5&gt;</code> Heading 5 <code>&lt;/h5&gt;</code></li>
+                        <li><code>&lt;h6&gt;</code> Heading 6 <code>&lt;/h6&gt;</code></li>
+                      </ul>
+
+                      <p><a class="btn btn-default btn-xs" href="http://w3schools.com/html/html_blocks.asp" target="_new">Source</a></p>
+        </div><!--/span-->
+
+        <div class="col-6 col-sm-6 col-lg-6">
+          <h2><code>&lt;p&gt;</code> ... <code>&lt;/p&gt;</code> element </h2>
+                      <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> paragraphs are defined with the <code>&lt;p&gt;</code> tags.</p>
+
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                           <p><span class="text-success text-center">Try This Above! <span class="glyphicon glyphicon-star"></span></span> Insert after <code>&lt;body&gt;</code> tag or after any <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+
+<pre>&lt;p&gt;My name is (insert name here). I studied (insert major here) at (insert school here). I am learning how to code in HTML and CSS. I'll write 3 more sentences which includes my hobbies, favorite meal, and why I'm learning web design.&lt;/p&gt;</pre>
+
+                        </div>
+                      </div>
+
+                      <h4 class="text-primary">Tag Information <span class="glyphicon glyphicon-info-sign"></span></h4>
+                      <p>Paragraph tags are also <strong>block level elements</strong>.</p>
+
+                      <h4 class="text-success">Proper Syntax <span class="glyphicon glyphicon-pencil"></span></h4>
+
+                      <p><code>&lt;p&gt;</code> Insert Paragraph Here <code>&lt;/p&gt;</code></p>
+                     
+
+                      <p><a class="btn btn-default btn-xs" href="http://www.w3schools.com/html/html_blocks.asp">Source</a> <a class="btn btn-default btn-xs" href="http://www.w3schools.com/html/html_elements.asp">Elements</a></p>
+
+                      <h4>Need Placeholders?</h4>
+                      <blockquote>Use this body of text. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </blockquote>
+                      <p><a class="btn btn-default btn-xs" href="http://lipsum.com" target="_new">Source</a></p>
+
+        </div><!--/span-->
+  </div><!-- /row -->
+  <div class="row">
+        <div class="col-12 col-sm-12 col-lg-12">
+          <h2>formatting tags</h2>
+                      <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr> uses formatting tags for formatting output. Use sparingly and appropriately.</p>
+
+                      <div class="panel panel-default">
+                        <div class="panel-body">
+                           <p><span class="text-success text-center">Try This Above! <span class="glyphicon glyphicon-star"></span></span> Insert after <code>&lt;body&gt;</code> tag.</p>
+
+<pre>&lt;p&gt;I would like to &lt;em&gt;emphasize&lt;/em&gt; the importance of &lt;strong&gt;being focused and on task&lt;/strong&gt;. &lt;del&gt;Hopefully I'm not wrong about this.&lt;/del&gt; If you can &lt;del&gt;finish&lt;/del&gt; &lt;ins&gt;complete&lt;/ins&gt; your task &lt;mark&gt;efficiently and with high quality&lt;/mark&gt;, you prevent redoing work for any noticable incorrections. Staying focused demands willingly&lt;sup&gt;1&lt;/sup&gt; and consciously&lt;sup&gt;2&lt;/sup&gt; limiting your distractions. Being on task promotes punctuality and reliability. &lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; You need a &lt;strong&gt;resolve&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;2&lt;/sup&gt; You need to be &lt;strong&gt;alert&lt;/strong&gt; and &lt;strong&gt;identify&lt;/strong&gt; your distractions.&lt;/p&gt;</pre>
+
+                        </div>
+                      </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-lg-12">
+          <h4 class="text-primary">Tag Information <span class="glyphicon glyphicon-info-sign"></span></h4>
+                      <p>Formatting tags are <strong>inline level elements</strong>. Inline elements are normally displayed without starting a new line. There are also Computer Output tags and tags for Citations, Quotations, and Definitions. There is no longer a need to use the following formatting tags: <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>.</p>
+        </div>
+
+        <div class="col-12 col-sm-12 col-lg-12">
+          <h4 class="text-success">Proper Syntax <span class="glyphicon glyphicon-pencil"></span></h4>
+        </div>
+
+        <div class="col-4 col-sm-4 col-lg-4">
+          <h4>Formatting Tags</h4>
+
+                      <ul>
+                        <li><code>&lt;strong&gt;</code> <strong>Important Text</strong> <code>&lt;/strong&gt;</code></li>
+                        <li><code>&lt;em&gt;</code> <em>Emphasized Text</em> <code>&lt;/em&gt;</code></li>
+                        <li><code>&lt;small&gt;</code> <small>Smaller Text</small> <code>&lt;/small&gt;</code></li>
+                        <li><code>&lt;sub&gt;</code> <sub>Subscripted Text</sub> <code>&lt;/sub&gt;</code></li>
+                        <li><code>&lt;sup&gt;</code> <sup>Superscripted Text</sup> <code>&lt;/sup&gt;</code></li>
+                        <li><code>&lt;ins&gt;</code> <ins>Inserted Text</ins> <code>&lt;/ins&gt;</code></li>
+                        <li><code>&lt;del&gt;</code> <del>Deleted Text</del> <code>&lt;/del&gt;</code></li>
+                        <li><code>&lt;mark&gt;</code> <mark>Highlighted Text</mark> <code>&lt;/mark&gt;</code></li>
+                      </ul>
+        </div>
+
+        <div class="col-4 col-sm-4 col-lg-4">
+          <h4>Computer Output Tags</h4>
+
+                      <ul>
+                        <li><code>&lt;code&gt;</code> <code>Computer Code Text</code> <code>&lt;/code&gt;</code></li>
+                        <li><code>&lt;kbd&gt;</code> <kbd>Keyboard Text</kbd> <code>&lt;/kbd&gt;</code></li>
+                        <li><code>&lt;samp&gt;</code> <samp>Sample Computer Code</samp> <code>&lt;/samp&gt;</code></li>
+                        <li><code>&lt;var&gt;</code> <var>Variable Text</var> <code>&lt;/var&gt;</code></li>
+                        <li><code>&lt;pre&gt;</code> Preformatted Text - Block Element <code>&lt;/pre&gt;</code></li>
+                      </ul>
+        </div>
+     
+        <div class="col-4 col-sm-4 col-lg-4">  
+          <h4>Citation, Quotations, Definition Tags</h4> 
+
+          <ul>
+            <li><code>&lt;abbr&gt;</code> <abbr>Abbreviation or Acronym</abbr> <code>&lt;/abbr&gt;</code></li>
+            <li><code>&lt;address&gt;</code> Contact Info - Block Element <code>&lt;/address&gt;</code></li>
+            <li><code>&lt;bdo&gt;</code> <bdo>Text Direction</bdo> <code>&lt;/bdo&gt;</code></li>
+            <li><code>&lt;blockquote&gt;</code> Quoted Text - Block Element <code>&lt;/blockquote&gt;</code></li>
+            <li><code>&lt;q&gt;</code> <q>Quote Inline Text</q> <code>&lt;/q&gt;</code></li>
+            <li><code>&lt;cite&gt;</code> <cite>Title of Work</cite> <code>&lt;/cite&gt;</code></li>
+            <li><code>&lt;dfn&gt;</code> <dfn>Definition Term</dfn> <code>&lt;/dfn&gt;</code></li>
+          </ul>  
+
+          <a class="pull-right btn btn-default btn-xs" href="http://w3schools.com/html/html_formatting.asp">Source</a>
+
+        </div>
+  </div> <!-- /row -->
+  <div class="row">
+        <div class="col-12 col-sm-12 col-lg-12">
+          <h2>References</h2> 
+                        <table class="table table-condensed table-bordered table-striped">
+                          <tr>
+                            <th>Topic</th>
+                            <th>Source</th>
+                          </tr>
+                          <tr>
+                            <td>Best Practices for Beginners</td>
+                            <td><a href="http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/" target="_new">http://net.tutsplus.com/tutorials/html-css-techniques/30-html-best-practices-for-beginners/</a></td>
+                          </tr>
+                          <tr>
+                            <td>Blocks</td>
+                            <td><a href="http://www.w3schools.com/html/html_blocks.asp" target="_new">http://www.w3schools.com/html/html_blocks.asp</a></td>
+                          </tr>
+                          <tr>
+                            <td>Headings, Paragraphs, & More</td>
+                            <td><a href="http://www.w3schools.com/html/html_elements.asp" target="_new">http://www.w3schools.com/html/html_elements.asp</a></td>
+                          </tr>
+                                <tr>
+                            <td>Formatting Text</td>
+                            <td><a href="http://w3schools.com/html/html_formatting.asp" target="_new">http://w3schools.com/html/html_formatting.asp</a></td>
+                          </tr>
+                        </table>
+
+        </div>
+  </div>
+</div><!-- /.container -->
+</div>
+
+
+<div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Content by <a href="w3schools.com">w3schools.com</a> // Curation by <a href="http://jeba.ro" target="_new">Jeoffrey Batangan</a> &copy; 2013  // Tryit Editor Instant Version 1.7 &copy; 2011-2013 by <a href="http://tryiteditor.webs.com/">Kevin Zhou</a>.</p>
+      </div>
+    </div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44940931-1', 'jeoffreybatangan.com');
+      ga('send', 'pageview');
+
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="custom/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <script>
+      $('#myTab a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+      })
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+<style type="text/css">
+
+	h1 {
+ 		font-family: tahoma;
+ 		font-size: 20px;
+ 		color: #CC0099;
+ 		font-style: bold;
+ 		text-transform: lowercase;
+ }
+
+ 	.header {
+ 		font-family: tahoma;
+ 		font-size: 18px;
+ 		font-weight: underline;
+ 	}
+
+ 	body {
+ 		font-family: verdana;
+ 		font-size: 13px;
+ 		text-transform: lowercase;
+
+ 	}
+
+ 	table {
+ 		border: 1px solid black;
+ 	}
+
+ 	th 
+ 	{
+ 		font-weight: bold;
+ 		font-size: 13px;
+ 		border: 1px solid #000000;
+ 	}
+
+ 	td 
+ 	{
+ 		text-align: center;
+ 		font-weight: normal;
+ 		font-size: 13px;
+ 		border: 1px solid #000000;
+ 	}
+
+ 	a:link, a:visited {
+ 		color: #0099FF;
+ 		text-decoration:none;
+ 	}
+
+ 	a:hover {
+ 		color: #006600;
+ 		text-transform: uppercase;
+ 		font-weight: bold;
+ 	}
+
+
+</style>
